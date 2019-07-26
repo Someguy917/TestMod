@@ -1,0 +1,35 @@
+﻿<SoftwareType>
+        <Name>test1</Name>                                              
+        <Unlock>1995</Unlock>                                          
+        <Category></Category>                                            
+        <Description>testdesc</Description>          
+        <Random>0.5</Random>                                       
+<Categories>                                                                    
+        <Category Name="category1”>                           
+         <Description>category</Description>       
+         <Unlock>1995</Unlock>                                        
+         <Popularity>0.1</Popularity>            
+         <Retention>0.9</Retention>            
+         <TimeScale>1</TimeScale>          
+         <Iterative>0.4</Iterative>                  
+        </Category>
+</Categories>                                                                                  
+        <OSSpecific>FALSE</OSSpecific>                
+        <OneClient>FALSE</OneClient>                   
+        <InHouse>FALSE</InHouse>                     
+        <NameGenerator></NameGenerator>       
+
+<Features>                                                                                    
+        <Feature Forced="True" Vital=”True”>                                   
+                <Name>forced</Name>                                                                 
+                <Category>System</Category>                                   
+        <Description>Feature is working</Description>                     
+                <DevTime>3</DevTime>                                               
+                <Innovation>0.1</Innovation>                                       
+                <Usability>0.5</Usability>
+                <Stability>0.4</Stability>
+                <CodeArt>1</CodeArt>                                               
+                <SoftwareCategory Category="category1">1995</SoftwareCategory>         
+        </Feature>
+</Features>
+</SoftwareType>
